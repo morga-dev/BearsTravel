@@ -13,7 +13,7 @@ export default function Register() {
     e.preventDefault();
     setMsg("");
     try {
-      const res = await fetch("http://localhost:4000/api/register", {
+      const res = await fetch("https://bearstravel-api-production.up.railway.app", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
