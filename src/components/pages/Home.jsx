@@ -71,7 +71,7 @@ export default function Home() {
               ¡Viaja seguro, viaja feliz, viaja con Bear's Travel!
             </h2>
             <img
-            src="/src/assets/Mascota-Entusiasmo.png"
+            src="/Mascota-Entusiasmo.png"
             alt="Mascot Bear"
             className="mascota w-32 h-full justify-center mx-auto"
           />
