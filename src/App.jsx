@@ -27,7 +27,7 @@ function MainLayout() {
         style={
           isHome
             ? {
-                backgroundImage: "url('/src/assets/Header.jpg')",
+                backgroundImage: "url('/Header.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",

@@ -4,19 +4,19 @@ import SplitText from "../Bits/SplitText";
 const destinations = [
 	{
 		name: "Los Cabos",
-		image: "./src/assets/LosCabos.jpg",
+		image: "/LosCabos.jpg",
 		description:
 			"Un paraíso en Baja California Sur, destino turístico reconocido por sus impresionantes paisajes, playas vírgenes, hoteles de lujo y una amplia gama de actividades. Ofrece experiencias para parejas, familias y grupos de amigos, con opciones que van desde relajarse en la playa hasta aventuras emocionantes. ",
 		transports: ["Avión", "Autobús", "Barco", "Tren"],
-		mascot: "./src/assets/BearCabos.png",
+		mascot: "/BearCabos.png",
 	},
 	{
 		name: "Cancún",
-		image: "./src/assets/Cancun.jpg",
+		image: "/Cancun.jpg",
 		description:
 			"Destino turístico de clase mundial en el Caribe mexicano, conocido por sus playas de arena blanca, aguas turquesa y vibrante vida nocturna. Además de sus atractivos naturales, ofrece una amplia gama de actividades culturales, aventuras y relajación para todo tipo de viajeros. ",
 		transports: ["Avión", "Autobús", "Tren"],
-		mascot: "./src/assets/BearCancun.png",
+		mascot: "/BearCancun.png",
 	},
 ];
 

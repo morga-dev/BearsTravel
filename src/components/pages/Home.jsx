@@ -12,7 +12,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[var(--dark-primary)] opacity-80 rounded-xl"></div>
         <div className="relative z-10 flex flex-col items-center">
           <img
-            src="/src/assets/Logo.png"
+            src="/Logo.png"
             alt="Bear's Travel"
             className="w-32 h-32 object-cover rounded-full border-4 border-[var(--gold)] mb-4 bg-[var(--dark-primary)] bg-opacity-80"
           />
