@@ -6,19 +6,19 @@ const hotels = [
     items: [
       {
         name: "Hotel Fiesta Americana Condesa Cancún",
-        image: "/Cancun.jpg",
+        image: "/H1.jpg",
         description: "Resort todo incluido frente al mar, ideal para familias y parejas. Piscinas, restaurantes y actividades.",
         stars: 5,
       },
       {
         name: "Krystal Cancún",
-        image: "/Cancun.jpg",
+        image: "/H2.jpg",
         description: "Ubicación privilegiada en la Zona Hotelera, con acceso directo a la playa y excelente vida nocturna.",
         stars: 4,
       },
       {
         name: "Grand Oasis Palm",
-        image: "/Cancun.jpg",
+        image: "/H3.jpg",
         description: "Perfecto para familias, con club infantil, albercas y restaurantes temáticos.",
         stars: 4,
       },
@@ -29,19 +29,19 @@ const hotels = [
     items: [
       {
         name: "Hotel Riu Palace Cabo San Lucas",
-        image: "/LosCabos.jpg",
+        image: "/H4.jpg",
         description: "Resort de lujo todo incluido, con vistas al mar, spa y múltiples restaurantes.",
         stars: 5,
       },
       {
         name: "Marina Fiesta Resort & Spa",
-        image: "/LosCabos.jpg",
+        image: "/H5.jpg",
         description: "Ubicado en la marina de Cabo San Lucas, cerca de tiendas y vida nocturna.",
         stars: 4,
       },
       {
         name: "Solmar Resort",
-        image: "/LosCabos.jpg",
+        image: "/H6.jpg",
         description: "Ambiente relajado, ideal para descansar y disfrutar de la playa.",
         stars: 4,
       },
@@ -75,7 +75,7 @@ export default function Hotels() {
               {city.items.map(hotel => (
                 <div
                   key={hotel.name}
-                  className="bg-[var(--dark-secondary)] rounded-2xl shadow-lg p-6 flex flex-col sm:flex-row items-center gap-6 border border-[var(--gold)] hover:border-[var(--orange)] transition"
+                  className="bg-[var(--dark-secondary)] rounded-2xl shadow-lg p-6 flex flex-col sm:flex-row items-center gap-6 border border-[var(--gold)] transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:border-[var(--orange)]"
                 >
                   <img
                     src={hotel.image}
