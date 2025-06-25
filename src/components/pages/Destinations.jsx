@@ -1,5 +1,6 @@
 import DestinationCard from "../Destinations/DestinationCard";
 import SplitText from "../Bits/SplitText";
+import Hotels from "./Hotels";
 
 // Componente para mostrar destinos turísticos
 const destinations = [
@@ -46,6 +47,8 @@ export default function Destinations() {
 					¡Descubre tu próximo destino con Bear's Travel!
 				</span>
 			</div>
+			{/* Hoteles */}
+			<Hotels />
 		</section>
 	);
 }
