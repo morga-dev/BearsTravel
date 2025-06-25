@@ -11,7 +11,7 @@ const transportOptions = [
   { value: "tren", label: "Tren", icon: <Train className="h-4 w-4 text-brand-orange" /> },
 ];
 
-// Resultados simulados (puedes conectar a tu backend después)
+// Resultados simulados
 const MOCK_RESULTS = [
   {
     id: 1,
