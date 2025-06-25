@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Calendar, MapPin, User, Trash2 } from "lucide-react";
 import SplitText from "../Bits/SplitText";
 
+// Componente para mostrar las reservaciones del usuario
 export default function MyReservations() {
   const [reservations, setReservations] = useState([]);
 

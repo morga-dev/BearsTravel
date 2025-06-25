@@ -2,6 +2,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
+// Componente de navegación principal (Navbar)
 const navLinks = [
   { to: "/", label: "Inicio" },
   { to: "/destinos", label: "Destinos" },
@@ -27,7 +28,7 @@ export default function Navbar() {
           <img src="/Logo.png" alt="Logo" className="w-12 h-12 rounded-full" />
           Bear's Travel
         </Link>
-        {/* Desktop links */}
+        {/* Links Desktop */}
         <div className="hidden md:flex gap-6">
           {navLinks.map(link => (
             <Link
@@ -41,7 +42,7 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        {/* Auth buttons */}
+        {/* Botones */}
         <div className="hidden md:flex gap-4">
           {!isLogged ? (
             <>
@@ -67,7 +68,7 @@ export default function Navbar() {
             </button>
           )}
         </div>
-        {/* Mobile menu button */}
+        {/* Botones en Movil */}
         <button
           className="md:hidden text-[var(--gold)]"
           onClick={() => setOpen(!open)}
@@ -76,7 +77,7 @@ export default function Navbar() {
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
-      {/* Mobile menu */}
+      {/* Menú en Movil */}
       {open && (
         <div className="md:hidden bg-[var(--dark-secondary)] px-4 pb-4">
           <div className="flex flex-col gap-4">

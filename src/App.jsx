@@ -11,6 +11,7 @@ import RequireAuth from "./components/Auth/RequireAuth";
 import MyReservations from "./components/pages/MyReservations";
 import RedirectIfAuth from "./components/Auth/RedirectIfAuth";
 
+// Componente principal que define la estructura de la aplicación
 function MainLayout() {
   const location = useLocation();
   const isHome = location.pathname === "/";

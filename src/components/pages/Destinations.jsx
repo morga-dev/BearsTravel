@@ -1,6 +1,7 @@
 import DestinationCard from "../Destinations/DestinationCard";
 import SplitText from "../Bits/SplitText";
 
+// Componente para mostrar destinos turísticos
 const destinations = [
 	{
 		name: "Los Cabos",
@@ -22,6 +23,7 @@ const destinations = [
 
 export default function Destinations() {
 	return (
+		// Sección de destinos turísticos
 		<section className="max-w-6xl mx-auto px-4 py-10">
 			<SplitText
 				text="Destinos"

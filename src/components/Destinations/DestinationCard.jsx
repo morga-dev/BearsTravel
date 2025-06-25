@@ -10,6 +10,7 @@ const transportIcons = {
   Tren: <Train />,
 };
 
+// Card para mostrar información de un destino turístico
 export default function DestinationCard({ name, image, description, transports, mascot }) {
   return (
     <div className="relative rounded-2xl shadow-xl overflow-hidden border border-[var(--gold)] hover:border-[var(--orange)] transition-colors duration-300 group cursor-pointer

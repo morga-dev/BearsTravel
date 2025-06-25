@@ -1,5 +1,6 @@
 import { Navigate, useLocation } from "react-router-dom";
 
+// Este componente se utiliza para proteger rutas que requieren autenticación
 export default function RequireAuth({ children }) {
   const location = useLocation();
   const isLogged = !!localStorage.getItem("token");

@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 
+// Componente de pie de página (Footer)
 export default function Footer() {
   const location = useLocation();
   const isHome = location.pathname === "/";

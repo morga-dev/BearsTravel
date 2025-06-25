@@ -2,10 +2,11 @@ import React from 'react';
 import { MapPin, Calendar, Users } from 'lucide-react';
 import SplitText from '../Bits/SplitText';
 
+// Componente principal de la página de inicio
 export default function Home() {
   return (
     <div className="container mx-auto p-4 text-[var(--white)] ">
-      {/* Header SOLO con fondo de imagen */}
+      {/* Header */}
       <header
         className="relative rounded-xl shadow-lg p-8 mb-8 flex flex-col items-center justify-center min-h-[320px] overflow-hidden">
         {/* Overlay oscuro */}

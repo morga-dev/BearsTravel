@@ -3,6 +3,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText as GSAPSplitText } from "gsap/SplitText";
 
+// Componente SplitText para animar texto al hacer scroll
+
 gsap.registerPlugin(ScrollTrigger, GSAPSplitText);
 
 const SplitText = ({
