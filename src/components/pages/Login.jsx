@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
     setMsg("");
     try {
-      const res = await fetch("https://bearstravel-api-production.up.railway.app", {
+      const res = await fetch("https://bearstravel-api-production.up.railway.app/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
