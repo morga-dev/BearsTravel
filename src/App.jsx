@@ -7,7 +7,7 @@ import Destinations from "./components/pages/Destinations";
 import Reservation from "./components/pages/Reservation";
 import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
-import RequireAuth from "./Components/Auth/RequireAuth";
+import RequireAuth from "./components/Auth/RequireAuth";
 import MyReservations from "./components/pages/MyReservations";
 import RedirectIfAuth from "./components/Auth/RedirectIfAuth";
 
